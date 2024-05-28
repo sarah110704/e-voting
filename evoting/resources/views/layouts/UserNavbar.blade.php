@@ -9,7 +9,6 @@
                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ route('homepage') }}">Beranda</a>
                 <a class="nav-link {{ Request::routeIs('announcement') ? 'active' : '' }}" href="{{ route('announcement') }}">Pengumuman</a>
                 <a class="nav-link {{ Request::routeIs('voting') ? 'active' : '' }}" href="{{ route('voting') }}">Pemilihan</a>
-                <a class="nav-link {{ Request::routeIs('voting.result') ? 'active' : '' }}" href="{{ route('voting.result') }}">Hasil Pemilihan</a>
             </div>
             <div class="navbar-nav p-3">
                 @if (auth()->guard('admin')->check())

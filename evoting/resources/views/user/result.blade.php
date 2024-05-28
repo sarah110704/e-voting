@@ -4,7 +4,7 @@
             <div class="col-lg my-auto">
                 <div class="card border-0 shadow">
                     <div class="card-header text-center fs-3 fw-bold text-uppercase p-3 border-0 shadow-sm">
-                        Hasil Pemilihan
+                    Hasil Pemilihan
                     </div>
                     <div class="card-body p-3">
                         <div class="d-flex justify-content-end my-3 mx-lg-5 mx-3">
